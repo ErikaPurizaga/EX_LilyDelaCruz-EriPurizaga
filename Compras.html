@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<head>
+		<title>Formulario de Compras</title>
+        <meta charset ="UTF-8">
+        <meta name="keywords" content ="cine,pelicula, movie">
+        <meta name ="description" content ="CADENA DE CINES- MOVIETHEATER">
+        <meta name ="author" content="Erika Purizaga- Liliana De La Cruz">
+        <meta name ="viewport" content ="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=Lora|Merriweather|Passion+One:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	</head>
+	<body id="body">
+		<header> 
+			<a href="index.html" id="logo">
+				<h1>CADENA DE CINES-MOVIETHEATER</h1>
+				<h2> UNA GRAN EXPERIENCIA HACIA TUS SENTIDOS </h2>
+			</a>
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">Locales</a></li>
+					<li><a href="Peliculas.html">Peliculas</a></li>
+					<li><a href="Compras.html" class="selected">Compra_Entradas</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="wrapper">
+			 <h3>Compra de Entradas</h3> 
+			<section>
+				<form action="action_page.php" method="post">
+					<p>
+						<label for="peliculas">Pelicula</label>
+						<select id="pelicula" name="pelicula" type="select">
+						<option value="Civil_War">Civil War</option>
+						<option value="Alicia_a_través_del_espejo">Alicia a través del espejo</option>
+						<option value="Zootopia">Zootopia</option> 
+						</select>
+					</p>
+					<p>
+						<label for="local">Local</label>
+						<select id="local" name="local" type="select">
+						<option value="1">Guayaquil</option>
+						<option value="2">Salinas</option>
+						<option value="3">Quito</option> 
+						</select>
+			
+						<span>Escoja la pelicula y el local de su preferencia</span>
+					</p>
+					<p>
+						<label for="precio">Precio</label>
+						<input id="precio" name="precio"  value= "4.30" type="text">
+					</p>
+					<p>
+						<label for="Numero_Entradas">Numero de Entradas</label>
+						<input id="numero_entradas" name="numero_entradas"   type="text">
+					</p>
+					<p>
+						<label for="Tarjeta de Crédito">Nombre de Tarjeta de Habiente</label>
+						<input id="nombre_tarjeta" name="nombre_tarjeta"   type="text">
+					</p>
+					<p>
+						<label for="Numero_Tarjeta">Numero de Tarjeta</label>
+						<input id="num_tarjeta" name="num_tarjeta"   type="text">
+					</p>
+					<p>
+						<input type="submit" value="Comprar">
+					</p>
+				</form>
+				</section>
+		<footer>
+		<a  href ="https://www.facebook.com/upseecuador"><img src="img/facebook.png" alt ="facebook upse" class ="social-icon"></a>
+		<a  href ="https://www.twitter.com/upse_ec"><img src="img/twitter.png" alt ="twitter upse" class ="social-icon"></a>
+		
+		<p>&copy;2016 Erika Purizaga-Liliana De La Cruz</p>
+	    </footer>
+	    </div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/app_compras.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
