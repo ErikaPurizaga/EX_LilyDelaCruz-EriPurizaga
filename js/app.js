@@ -28,9 +28,10 @@ function creaList(lista, ubicacion){//crea lista de la posicion solicitada
 		return listHTML; //retorna la lista para presentada
 }
 
+//Comentario Profesor: Tienen error en esta funcion. Debieron manejar el error.
 function printHTML(mensaje, tag){
 	var outputDiv = document.getElementById(tag);// parametro TAG indica el id del tag en el que se va a presentar
-	outputDiv.innerHTML = mensaje;
+	outputDiv.innerHTML = mensaje; 
 }
 
 printList(locales, -1); // posicion menos 1 es para imprimir la lista completa

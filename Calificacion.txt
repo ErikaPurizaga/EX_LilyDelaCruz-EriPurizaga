@@ -1,0 +1,18 @@
+Detalle Calificacion   16.5/27
+Requisitos Funcionales (15 Puntos):(5 por pagina) 10.5 = (3 + 5 + 2.5) . Faltaron imagenes en las peliculas, el resto muy bien.
+Errores Manejados o no tiene en consola (2 Puntos): 1 Punto. Errores en la carga de imagenes. Debieron verificar mejor la consola. No afecta su js en algunas paginas (peliculas) por eso tienen nota alta. Afecta al formulario.
+Buen Uso de Funciones, Ciclos y DRY (2 Puntos): 1 Punto. Objetos bien usados. Sin embargo tienen metodos inutiles en su codigo en algunas paginas (metodos que nunca se usan). Por ejemplo, errores de overlay en paginas que no usan el overlay o al menos uds no pusieron overlay en peliculas. Debieron Refactorizar.
+Buen Uso de Jquery y Galeria (2.5 Puntos): 2 Puntos. El JQuery y la galeria estan bien usados en la pagina de locales. No tienen toda la nota xq no la pusieron en la pagina de peliculas. 
+Uso de los media Queries (2.5 Puntos): 2 Puntos. Les falto poner media queries para resoluciones de pantallas pequenas. En estos casos no se ven los menus de navegacion.
+Comentarios (1 Punto): 1 Punto. Si tienen comentarios.
+Pagina con buena estetica (1 Punto): 1 Punto.
+Subio bien a github (1 Punto bonus): 0 Puntos. Subieron y resubieron. Obtuve error 404 en el primer repo que me enviaron.
+Total: 18.5 - 2 = 16.5 Por enviarme repo vacio al comienzo, si calificaba ese repo tenian 0.
+
+Comentarios Profesor:
+Tienen pequenos problemas con las rutas de las imagenes de redes sociales y eso les
+da errores en consola. Los he obviado xq no afectan el desarrollo de su JS.
+No usaron carga de datos dinamica desde los objetos pelicula y locales hacia los formularios, xq?
+Los media queries no muestan los menus en todos los tamanos, les faltaron revisar casos.
+
+"comme ci, comme ça"
